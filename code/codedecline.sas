@@ -35,9 +35,8 @@ run;
 %macro HR (data=, expgroup=, pytime=, outcome=, covar1=, covar2=);
 /*Step1: Testing the proportional hazard assumption in Cox models*/
 proc phreg data=&data.;
-    class &expgroup. &covar2./param=ref ref=first;
     model &pytime.*&outcome.(0)=&expgroup. &covar1. &covar2./rl;
-	output out=res ressch=sch;
+    output out=res ressch=sch;
 run;  
 proc sgplot data=res;
 	scatter x=&pytime. y=sch;
