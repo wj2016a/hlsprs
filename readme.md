@@ -1,6 +1,6 @@
 # Integrated healthy lifestyle even in late-life mitigates cognitive decline risk across varied genetic susceptibility
 
-Code used for Wang et al. [NCOMMS-24-00647-T].
+Code used for Wang et al. [NCOMMS-24-00647-A].
 
 ## Contents
 
