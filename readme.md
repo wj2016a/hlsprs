@@ -23,7 +23,7 @@ Please contact Xiaoming Shi (shixm@chinacdc.cn) or Yuebin Lv (lvyuebin@nieh.chin
 # System Requirements
 
 ## All software dependencies and operating systems (including version numbers)
-The [sample of the code](code/model.sas, code/plot.R) requires only a standard computer. 
+The [sample of the code](model code.sas, plot.R) requires only a standard computer. 
 
 ## Versions the software has been tested on
 SAS for Windows Version 9.4 is used for statistical analyses using a Microsoft Windows x64 operating system.
@@ -31,16 +31,16 @@ Users should have R version 4.3.1 from CRAN.
 
 # Installation Guide
 
-## Installing SAS 9.4
-The SAS 9.4 installation guide for windows could be accessed via the following link ([Installing SAS 9.4](https://www.sas.com/content/dam/SAS/en_au/doc/academic/Quick-guide-for-SAS-Foundation-94-Installation.pdf)), with install time about 40 minutes.
+## Installing  9.4
+The  9.4 installation guide for windows could be accessed via the following link ([Installing  9.4](https://www..com/content/dam//en_au/doc/academic/Quick-guide-for--Foundation-94-Installation.pdf)), with install time about 40 minutes.
 
 ## Installing R version 4.3.1 or higher and required R packages
 The latest version of R can be installed by this link (https://cran.r-project.org), with install time about 5 minutes, and the details for required R packages installing could be seen in [sample of the code](code/plot.R). The typical install time on a “ggplot” desktop computer is less than one minute.
 
 # Demo
 
-The demo can be seen in [sample of the code](code/model.sas, code/plot.R).
+The demo can be seen in [sample of the code](model code.sas, plot.R).
 
 # Instructions for Use
 
-Users should open the [sample of the code](code/model.sas, code/plot.R) using SAS and R software.
+Users should open the [sample of the code](model code.sas, plot.R) using SAS and R software.
